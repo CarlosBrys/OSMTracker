@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+<layout name="root">
+            <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="voicerec" label="Audio" icon="mic.png"/>
+                <button type="picture" label="Foto" icon="camera.png"/>
+</row>
+<row>
+<button type="page" label="Caminos" targetlayout="caminos" />
+<button type="page" label="(+) Caminos" targetlayout="caminos2" />
+<button type="page" label="Restriccion" targetlayout="restricciones" />
+</row>
+<row>
+               <button type="page" label="Servicios" targetlayout="servicios" />
+              <button type="page" label="Transporte" targetlayout="transporte" />
+              <button type="page" label="Lugares" targetlayout="lugares" />
+</row>
+<row>
+    <button type="page" label="Negocios" targetlayout="negocios" />
+</row>
+</layout>
+
+
+<layout name="caminos">
+<row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Avenida" />
+                <button type="tag" label="Calle" />
+</row>
+<row>
+                <button type="tag" label="Bicisenda" />
+                <button type="tag" label="Incio 3ra Trocha" />
+                <button type="tag" label="Fin 3ra Trocha" />
+</row>
+<row>
+                <button type="tag" label="Asfalto" />
+                <button type="tag" label="Empedrado" />
+                <button type="tag" label="Tierra" />
+</row>
+<row>
+                <button type="tag" label="Puente" />
+                <button type="tag" label="Arroyo" />
+                <button type="tag" label="Poste SOS" />
+</row>
+ </layout>
+
+<layout name="caminos2">
+<row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Cámara" />
+                <button type="tag" label="Radar" />
+</row>
+<row>
+                <button type="tag" label="Estacionamiento" />
+                <button type="tag" label="Info Turismo" />
+                <button type="tag" label="Mirador" />
+</row>
+ </layout>
+
+
+
+ <layout name="servicios">
+  <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Estación de Servicio" />
+                <button type="tag" label="Restaurante" />
+</row>
+<row>
+                <button type="tag" label="Comida Rápida" />
+                <button type="tag" label="Pizzeria" />
+                <button type="tag" label="Hotel" />
+</row>
+<row>
+                <button type="tag" label="Cabaña" />
+                <button type="tag" label="Gomería" />
+                  <button type="tag" label="Cajero" />
+</row>
+<row>
+                <button type="tag" label="Baños" />
+</row>
+ </layout>
+ 
+<layout name="negocios">
+         <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Farmacia" />
+                <button type="tag" label="Panaderia" />
+</row>
+<row>
+                <button type="tag" label="Supermercado" />
+                <button type="tag" label="Minimercado" />
+                <button type="tag" label="Quiosco" />
+</row>
+<row>
+                <button type="tag" label="Librería" />
+                <button type="tag" label="Carnicería" />
+                <button type="tag" label="Ferretería" />
+</row>
+<row>
+                <button type="tag" label="Venta celulares" />
+                <button type="tag" label="Pinturería" />
+                <button type="tag" label="Venta de Autos" />
+</row>
+     </layout>
+
+
+
+
+<layout name="transporte">
+          <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Parada bus cubierta" />
+                <button type="tag" label="Parada bus" />
+</row>
+<row>
+                <button type="tag" label="Parada bus cub frente" />
+                <button type="tag" label="Parada bus frente" />
+                <button type="tag" label="Parada de Taxi" />
+</row>
+<row>
+                <button type="tag" label="Terminal Bus" />
+</row>
+
+ </layout>
+
+ <layout name="restricciones">
+  <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Semáforo" />
+                <button type="tag" label="Lomo de burro" />
+</row>
+<row>
+                    <button type="tag" label="Máx 30" />
+                <button type="tag" label="Máx 40" />
+                <button type="tag" label="Máx 60" />
+</row>
+<row>
+                <button type="tag" label="Máx 80" />
+                <button type="tag" label="Máx 100" />
+                <button type="tag" label="Máx 110" />
+</row>
+<row>
+        <button type="tag" label="Limitador velocidad" />
+    <button type="tag" label="Paso Peatones" />
+</row>
+     </layout>
+
+<layout name="lugares">
+<row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Hospital" />
+                <button type="tag" label="Policía" />
+</row>
+<row>
+                <button type="tag" label="Bomberos" />
+                <button type="tag" label="Escuela" />
+                <button type="tag" label="Museo" />
+</row>
+<row>
+                <button type="tag" label="Camping" />
+                <button type="tag" label="Atracción" />
+                <button type="tag" label="Cancha" />
+</row>
+<row>
+                <button type="tag" label="Monumento" />
+                    <button type="tag" label="Cementerio" />
+                <button type="tag" label="Bar" />
+</row>
+ </layout>
+
+</layouts>
+
+
+

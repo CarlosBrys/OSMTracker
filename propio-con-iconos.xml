@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+<layout name="root">
+            <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="voicerec" label="Audio" icon="mic.png"/>
+                <button type="picture" label="Foto" icon="camera.png"/>
+</row>
+<row>
+<button type="page" label="Caminos" targetlayout="caminos" icon="caminos.svg.png"/>
+<button type="page" label="(+) Caminos" targetlayout="caminos2"  icon="caminos.svg.png"/>
+<button type="page" label="Restriccion" targetlayout="restricciones" icon="restricciones.svg.png" />
+</row>
+<row>
+               <button type="page" label="Servicios" targetlayout="servicios"  icon="servicios.svg.png"/>
+              <button type="page" label="Transporte" targetlayout="transporte"  icon="transporte.svg.png"/>
+              <button type="page" label="Lugares" targetlayout="lugares" icon="lugares.svg.png" />
+</row>
+<row>
+    <button type="page" label="Negocios" targetlayout="negocios" icon="negocios.svg.png" />
+</row>
+</layout>
+
+
+<layout name="caminos">
+<row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Avenida"  icon="avenida.png"/>
+                <button type="tag" label="Calle" icon="calle.png" />
+</row>
+<row>
+                <button type="tag" label="Bicisenda" icon="bicisenda.svg.png" />
+                <button type="tag" label="Incio 3ra Trocha" icon="tercera_trocha.svg.png" />
+                <button type="tag" label="Fin 3ra Trocha" icon="tercera_trocha.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Asfalto" icon="asfalto.svg.png" />
+                <button type="tag" label="Empedrado" icon="empedrado.svg.png"/>
+                <button type="tag" label="Tierra" icon="tierra.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Puente" icon="puente.svg.png" />
+                <button type="tag" label="Arroyo" icon="arroyo.svg.png" />
+                <button type="tag" label="Poste SOS" icon="sos.svg.png" />
+</row>
+ </layout>
+
+<layout name="caminos2">
+<row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Vigilancia" icon="camara.svg.png" />
+                <button type="tag" label="Radar" icon="radar_fotomulta.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Estacionamiento" icon="estacionamiento.svg.png" />
+                <button type="tag" label="Info Turismo" icon="info_tur.svg.png" />
+                <button type="tag" label="Mirador" icon="mirador.svg.png" />
+</row>
+ </layout>
+
+
+
+ <layout name="servicios">
+  <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Estación de Servicio" icon="estacion_servicio.svg.png" />
+                <button type="tag" label="Restaurante" icon="restaurante2.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Comida Rápida" icon="comida_rapida.svg.png" />
+                <button type="tag" label="Pizzeria" icon="pizza.svg.png"/>
+                <button type="tag" label="Hotel" icon="hotel.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Cabaña" icon="cabañas.svg.png" />
+                <button type="tag" label="Gomería" icon="empedrado.svg.png" />
+                  <button type="tag" label="Cajero" icon="cajero.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Baños" icon="baños.svg.png" />
+</row>
+ </layout>
+ 
+<layout name="negocios">
+         <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Farmacia" icon="farmacia.svg.png" />
+                <button type="tag" label="Panaderia" icon="panaderia.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Supermercado" icon="supermercado.svg.png" />
+                <button type="tag" label="Minimercado" icon="minimercado.svg.png" />
+                <button type="tag" label="Quiosco" icon="quisco.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Librería" icon="libreria.svg.png" />
+                <button type="tag" label="Carnicería" icon="carniceria.svg.png" />
+                <button type="tag" label="Ferretería" icon="ferreteria.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Venta celulares" icon="celulares.svg.png" />
+                <button type="tag" label="Pinturería" icon="pintureria.svg.png" />
+                <button type="tag" label="Venta de Autos" icon="venta_autos.svg.png" />
+</row>
+     </layout>
+
+
+
+
+<layout name="transporte">
+          <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Parada bus cubierta" icon="colectivo.svg.png" />
+                <button type="tag" label="Parada bus" icon="parada_colectivo.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Parada bus cub frente" icon="colectivo.svg.png" />
+                <button type="tag" label="Parada bus frente" icon="parada_colectivo.svg.png" />
+                <button type="tag" label="Taxi" icon="taxi.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Terminal Bus" icon="transporte.svg.png" />
+</row>
+
+ </layout>
+
+ <layout name="restricciones">
+  <row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Semáforo" icon="semaforo.svg.png" />
+                <button type="tag" label="Lomo de burro" icon="lomo_burro.svg.png" />
+</row>
+<row>
+                    <button type="tag" label="Máx 30" icon="30.png" />
+                <button type="tag" label="Máx 40" icon="40.png" />
+                <button type="tag" label="Máx 60" icon="60.png" />
+</row>
+<row>
+                <button type="tag" label="Máx 80" icon="80.png" />
+                <button type="tag" label="Máx 100" icon="100.png" />
+                <button type="tag" label="Máx 110" icon="110.png" />
+</row>
+<row>
+        <button type="tag" label="Limitador velocidad" icon="limitador_velocidad.svg.png" />
+    <button type="tag" label="Paso Peatones" icon="paso_peatones.svg.png" />
+</row>
+     </layout>
+
+<layout name="lugares">
+<row>
+                <button type="textnote" label="Nota" icon="text.png"/>
+                <button type="tag" label="Hospital" icon="hospital.svg.png" />
+                <button type="tag" label="Policía" icon="policia.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Bomberos" icon="bomberos.svg.png" />
+                <button type="tag" label="Escuela" icon="escuela.svg.png" />
+                <button type="tag" label="Museo" icon="museo.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Camping" icon="camping.svg.png" />
+                <button type="tag" label="Atracción" icon="atraccion_turistica.svg.png" />
+                <button type="tag" label="Cancha" icon="cancha_futbol.svg.png" />
+</row>
+<row>
+                <button type="tag" label="Monumento" icon="monumento.svg.png" />
+                    <button type="tag" label="Cementerio" icon="cementerio.svg.png" />
+                <button type="tag" label="Bar" icon="bar.svg.png" />
+</row>
+ </layout>
+
+</layouts>
+
+
+

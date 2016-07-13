@@ -1,0 +1,37 @@
+<layouts>
+
+	<layout name="root">
+		<row>
+			<button type="tag" label="Tierra" icon="dirt.png"/>
+			<button type="tag" label="Ripio" icon="gravel.png"/>
+			<button type="tag" label="Asfalto" icon="paved.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Lomo de burro" icon="bump.png"/>
+			<button type="tag" label="Badén" icon="hump.png"/>
+			<button type="tag" label="Semáforo" icon="trafficlight.png"/>
+			<button type="tag" label="Paso de zebra" icon="zebra.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Servicio" icon="service.png"/>
+			<button type="tag" label="Avenida" icon="secondary.png"/>
+			<button type="tag" label="Calle" icon="residential.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Autopista" icon="motorway.png"/>
+			<button type="tag" label="Ruta Nacional" icon="trunk.png"/>
+			<button type="tag" label="Ruta Provincial" icon="primary.png"/>
+		</row>
+		<row>
+			<button type="tag" label="Camino Rural" icon="unclassified.png"/>
+			<button type="tag" label="Desconocido" icon="road.png"/>
+			<button type="tag" label="a" icon="tertiary.png"/>
+		</row>
+		<row>
+			<button type="picture" icon="photo.png"/>
+			<button type="voicerec" icon="mic.png"/>
+			<button type="textnote" icon="note.png"/>
+		</row>
+	</layout>
+
+</layouts>
